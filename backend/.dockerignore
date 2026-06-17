@@ -1,0 +1,28 @@
+# --- UV & Python Environment ---
+.venv/
+.uv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Project Caches & Build Artifacts ---
+.cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+*.egg-info/
+
+# --- Environment & Secrets ---
+.env
+.env.*
+!.env.example
+secrets.toml
+
+# --- IDEs & System Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
